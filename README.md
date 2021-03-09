@@ -1,11 +1,22 @@
 # hw1
 target_data = list(filter(lambda i: i['TEMP'] != '-99.000', data)) #filt the data which equals to -99.000 in 'TEMP', and put all the data into target_data
+
 target_data = list(filter(lambda i: i['TEMP'] != '-999.000', target_data)) #filt the data which equals to -999.000 in 'TEMP', and put all the data into target_data
-target_data_C0A880 = list(filter(lambda i: i['station_id'] == 'C0A880', target_data)) #filt the target_data which is in station 'C0A880', and put all the data into target_data_C0A880
-target_data_C0F9A0 = list(filter(lambda i: i['station_id'] == 'C0F9A0', target_data)) #filt the target_data which is in station 'C0F9A0', and put all the data into target_data_C0F9A0
-target_data_C0G640 = list(filter(lambda i: i['station_id'] == 'C0G640', target_data)) #filt the target_data which is in station 'C0G640', and put all the data into target_data_C0G640
-target_data_C0R190 = list(filter(lambda i: i['station_id'] == 'C0R190', target_data)) #filt the target_data which is in station 'C0R190', and put all the data into target_data_C0R190
-target_data_C0X260 = list(filter(lambda i: i['station_id'] == 'C0X260', target_data)) #filt the target_data which is in station 'C0X260', and put all the data into target_data_C0X260
+
+target_data_C0A880 = list(filter(lambda i: i['station_id'] == 'C0A880', target_data)) 
+#filt the target_data which is in station 'C0A880', and put all the data into target_data_C0A880
+
+target_data_C0F9A0 = list(filter(lambda i: i['station_id'] == 'C0F9A0', target_data)) 
+#filt the target_data which is in station 'C0F9A0', and put all the data into target_data_C0F9A0
+
+target_data_C0G640 = list(filter(lambda i: i['station_id'] == 'C0G640', target_data)) 
+#filt the target_data which is in station 'C0G640', and put all the data into target_data_C0G640
+
+target_data_C0R190 = list(filter(lambda i: i['station_id'] == 'C0R190', target_data)) 
+#filt the target_data which is in station 'C0R190', and put all the data into target_data_C0R190
+
+target_data_C0X260 = list(filter(lambda i: i['station_id'] == 'C0X260', target_data)) 
+#filt the target_data which is in station 'C0X260', and put all the data into target_data_C0X260
 
 result = [] #create a list of 'result' which is for the output
 data_temp = [] #create a list for the temporary data for each station
