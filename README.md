@@ -49,3 +49,10 @@ result.sort() #sort the result list
 
 
 print(result) #because after using ctrl + F, there are all having maximum, thus here has no choosing weather print None or not, just print the result.
+
+
+
+
+
+RESULTS: 
+[('C0A880', 26.7), ('C0F9A0', 31.2), ('C0G640', 31.4), ('C0R190', 34.6), ('C0X260', 31.7)]
